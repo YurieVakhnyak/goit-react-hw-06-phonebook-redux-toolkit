@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import { getContacts, getFilterValue } from '../../redux/selectors';
-
+// import { persistStore } from 'redux-persist';
 import { ContactItem } from 'components/ContactItem/ContactItem';
 import { ContacListStyled } from './ContactList.styled';
 
